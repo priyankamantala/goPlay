@@ -11,7 +11,7 @@ func main() {
 	// Running server on 8080 by default
 	//r.Run()
 	r.GET("/testServer", TestServer)
-	r.GET("/geUserData", GetUserData)
+	r.GET("/getUserData", GetUserData)
 	// Given hardcoded port - server will run on 3030
 	r.Run(":3030")
 }
