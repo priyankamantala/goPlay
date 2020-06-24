@@ -9,6 +9,7 @@ var y string
 var z bool
 
 func main() {
+	// zero values will be assigned by the compiler
 	fmt.Println(x)
 	fmt.Println(y)
 	fmt.Println(z)
